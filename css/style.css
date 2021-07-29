@@ -1,0 +1,85 @@
+body{
+    /* margin: 0 100px 0 100px; */
+}
+
+.nav{
+    margin: 0 100px 0 100px;
+}
+
+.nav-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation p{
+    padding: 5px;
+}
+
+.navigation button{
+    height: 44px;
+    width: 100px;
+    border-radius: 50px;
+    border: 0ch;
+    background-color: blue;
+    color: white;
+}
+
+.navigation button:hover{
+    height: 44px;
+    width: 100px;
+    border-radius: 50px;
+    border: 0ch;
+    background-color: red;
+    color: white;
+}
+
+.hero{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../images/hero-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+    margin: 0 auto;
+}
+
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.hero-text h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.hero button{
+    height: 44px;
+    width: 150px;
+    border-radius: 50px;
+    border: 0ch;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}
+
+.hero button:hover{
+    width: 150px;
+    cursor: pointer;
+}
+
+.mission{
+    display: flex;
+}
