@@ -451,3 +451,14 @@ body{
 
 }
 
+.title p{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .title p{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
