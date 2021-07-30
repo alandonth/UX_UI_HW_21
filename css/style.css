@@ -83,7 +83,6 @@ body{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    /* background-image: url(../images/hero-background.png); */
     background-image: url(../images/sharegrid-N10auyEVst8-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
