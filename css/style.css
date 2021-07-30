@@ -81,13 +81,18 @@ body{
 
 .photography-hero{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+<<<<<<< Updated upstream
     background-image: url(../images/sharegrid-N10auyEVst8-unsplash.jpg);
+=======
+    /* background-image: url(../images/hero-background.png); */
+    background-image: url(../images/photo-hero.png);
+>>>>>>> Stashed changes
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 85vh;
+    height: 50vh;
     margin: 0 0 100px 0;
 }
 
